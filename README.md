@@ -11,3 +11,5 @@ docker cp data some-test-database:/data
 
 4) Run init script 
 docker exec  -t some-test-database sh init_db.sh myapp
+
+Default username / password: docker / docker
